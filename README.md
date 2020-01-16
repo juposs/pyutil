@@ -2,16 +2,16 @@
 
 apt install python3-pip
 
-wget https://github.com/juposs/pyutil/raw/master/dist/pyutil-3.2.py3-none-any.whl
+wget https://github.com/juposs/pyutil/raw/master/dist/pyutil-1.0-py3-none-any.whl
 
-pip3 install ./pyutil.py-3.2-py2-none-any.whl --user
+pip3 install ./pyutil.py-1.0-py3-none-any.whl --user
 
 # Defaults
-Custom defaults can be stored in $HOME/myutil_settings.json
+Custom defaults can be stored in $HOME/pyutil_settings.json
 
 See https://github.com/juposs/pyutil/blob/master/pyutil_settings.json_sample
 
-Everything that is not defined in $HOME/pyutil_settings.json will get read from
+Everything that is not defined in $HOME/pyutil_settings.json will be read from
 
 "$HOME/.local/lib/python3.X/site-packages/pyutil/defaults.py"
 
